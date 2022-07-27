@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+}
+
+section {
+    position: absolute;
+}
+
+[aria-label="navbar"] {
+    width: 100%;
+    position: absolute;
+    padding: 2% 0%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.grow-list {
+    width: 35%;
+    color: #c2c2c2;
+    position: absolute;
+    left: 15%;
+    cursor: pointer;
+}
+
+.grow-list ul li:hover {
+    color: #000;
+}
+
+.button-group {
+    position: absolute;
+    right: 5%;
+}
+
+[alt="brand-logo"] {
+    padding: 0% 0% 0% 40%;
+}
+
+[aria-label="banner"] {
+    width: 100%;
+    top: 12%;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-group .nav-button {
+    background-color: #5955b3;
+    border: 2px solid #5955b3;
+    color: #fff;
+    border-radius: 8px;
+    padding: 9px 15px;
+    width: 110px;
+}
+
+.btn {
+    position: absolute;
+    background-color: #5955b3;
+    border: 2px solid #5955b3;
+    color: #fff;
+    border-radius: 8px;
+    padding: 9px 15px;
+    bottom: 13%;
+    left: 50px;
+}
+
+.heading-text {
+    font-size: 67px;
+    padding-left: 50px;
+}
+
+.description {
+    padding-left: 50px;
+    padding-right: 135px;
+    font-size: 18px;
+    color: #a9a9a9;
+}
+
+.heading-text span {
+    color: #5955b3;
+}
